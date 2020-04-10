@@ -1,5 +1,5 @@
 import React from 'react';
-import NavLink from '../utils/NavLink';
+import NavLink from '../libs/NavLink';
 
 const Footer = () => {
   return (
