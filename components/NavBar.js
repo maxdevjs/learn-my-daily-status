@@ -1,5 +1,5 @@
 import React from 'react';
-import NavLink from '../utils/NavLink';
+import NavLink from '../libs/NavLink';
 
 const NavBar = () => {
   return (
@@ -10,7 +10,7 @@ const NavBar = () => {
       <NavLink href="/cadastro">
         Cadastro
       </NavLink>
-      <NavLink href="/entra">
+      <NavLink href="/api/login">
         Entra
       </NavLink>
     </div>
